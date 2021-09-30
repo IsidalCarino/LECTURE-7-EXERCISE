@@ -26,3 +26,4 @@ int main()
 }
 ```
 # STARTING A BAND
+// WORK IN PROGRESS SLIDE 17 TO 20
