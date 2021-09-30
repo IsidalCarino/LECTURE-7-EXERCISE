@@ -1,4 +1,5 @@
 # MARK MY WORDS
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -23,5 +24,5 @@ int main()
     cin >> again;
     return 0;
 }
-    
+```
 # STARTING A BAND
