@@ -1,5 +1,4 @@
-# LECTURE-7-EXERCISE
-//MARK MY WORDS
+# MARK MY WORDS
 #include <iostream>
 using namespace std;
 int main()
@@ -23,3 +22,5 @@ int main()
     cout << "Go again? (Y or N): ";
     cin >> again;
     return 0;
+}
+    
