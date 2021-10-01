@@ -27,7 +27,6 @@ int main()
 ```
 # STARTING A BAND
 ```
-//WITHOUT USING STRING:
 #include <iostream>
 #include <string>
 using namespace std;
@@ -51,7 +50,6 @@ int main()
 	cin >> play;
 	return 0;
 }
-//WITH STRING IS WORK IN PROGRESS
 ```
 
 # KILLING TIME
