@@ -81,3 +81,7 @@ int main()
 	return 0;
 }
 ```
+# EARTHQUAKE
+```
+//WORK IN PROGRESS
+```
