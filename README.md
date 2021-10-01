@@ -61,18 +61,18 @@ using namespace std;
 int main()
 {
 	int minute;
-	int money;
+	int change;
 	cout << "When will your friend arrive? (Enter how many minutes) " << endl;;
 	cin >> minute;
 	if (minute >= 15)
 	{
-		cout << "Hmm.. gotta wait then.. Do I have money for coffee? (Check your wallet how much money you have left and enter the amount)" << endl;
-		cin >> money;
-		if (money > 5)
+		cout << "Hmm.. gotta wait then.. Do I have change for coffee? (Check your wallet how much change you have left and enter the amount)" << endl;
+		cin >> change;
+		if (change > 5)
 		{
-			cout << "I have money for coffee, I'll go buy and drink while waiting." << endl;
+			cout << "I have change for coffee, I'll go buy and drink while waiting." << endl;
 		}else{
-			cout << "a... I don't see any money here. I'll just walk around and wait for my friend and ask him/her to buy me coffee." << endl;
+			cout << "a... I don't see any change here. I'll just walk around and wait for my friend and ask him/her to buy me coffee." << endl;
 		}
 	}else{
 		cout << "a... I'll wait for him/her at the food zone." << endl;
