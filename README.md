@@ -51,7 +51,7 @@ int main()
 	cin >> play;
 	return 0;
 }
-//WITH STRING:
+//WITH STRING IS WORK IN PROGRESS
 ```
 
 # KILLING TIME
@@ -105,8 +105,7 @@ int main()
 			cout << "Major Earthquake" << endl;
 		}else if (a <= 9.9 && a == 8.0){
 			cout << "Great Earthquake" << endl;
-		}
-		else if (a >= 10.0) {
+		}else if (a >= 10.0) {
 		cout << "Meteoric Earthquake" << endl;
 	}
 	return 0;
