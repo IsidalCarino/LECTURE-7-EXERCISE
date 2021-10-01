@@ -33,14 +33,14 @@ int main()
 using namespace std;
 int main()
 {
-	char answer = ' ';
+	char play = ' ';
 	cout << "Can your friend play musical instruments? Y or N? " << endl;
-	cin >> answer;
-	if (answer == 'y' || answer == 'Y') {
-		int ch;
+	cin >> play;
+	if (play == 'y' || play == 'Y') {
+		int x;
 		cout << "What instrument does you friend play?" << endl << "1. Guitar" << endl << "2. Drums" << endl << "3. Piano" << endl << "4. Flute" << endl;
-		cin >> ch;
-		if (ch == 1 || ch == 2) {
+		cin >> x;
+		if (x == 1 || x == 2) {
 			cout << "The friend can join the band.";
 		}else {
 			cout << "The friend cannot join the band.";
@@ -48,10 +48,9 @@ int main()
 	}else {
 		cout << "The friend cannot join the band.";
 	}
-	cin >> answer;
+	cin >> play;
 	return 0;
-} 
-
+}
 //WITH STRING:
 ```
 
