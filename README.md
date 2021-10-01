@@ -83,5 +83,31 @@ int main()
 ```
 # EARTHQUAKE
 ```
-//WORK IN PROGRESS
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout << "Enter Magnitude: " << endl;
+	cin >> a;
+		if (a <= 1.9)
+			cout << "Micro" << endl;
+		else if (a <= 3.0 && a >= 2.0)
+			cout << "Very Minor" << endl;
+		else if (a <= 4.0 && a >= 3.0)
+			cout << "Minor" << endl;
+		else if (a <= 5.0 && a >= 4.0)
+			cout << "Light" << endl;
+		else if (a <= 6.0 && a >= 5.0)
+			cout << "Moderate" << endl;
+		else if (a <= 7.0 && a >= 6.0)
+			cout << "Strong" << endl;
+		else if (a <= 8.0 && a >= 7.0)
+			cout << "Major" << endl;
+		else if (a <= 10.0 && a >= 8.0)
+			cout << "Great" << endl;
+		else if (a >= 10.0)
+			cout << "Meteoric" << endl;
+	return 0;
+}
 ```
