@@ -107,4 +107,5 @@ int main()
 		cout << "Meteoric Earthquake" << endl;
 	}
 	return 0;
+}
 ```
